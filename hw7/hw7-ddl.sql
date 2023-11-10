@@ -88,6 +88,12 @@ INSERT INTO people (people_id, people_first_name, people_last_name) values
     (5, 'Arnold', 'Person 5'),
     (6, 'Ryan', 'Person 6');
 
+INSERT INTO people (people_id, people_first_name, people_last_name) values
+    (7, 'Silas', 'Person 7'),
+    (8, 'Patricia', 'Person 8'),
+    (9, "Beth", 'Person 9'),
+    (10, 'Samantha', 'Person 10');
+
 
 # Section 6
 # Create peopleskills( id, skills_id, people_id, date_acquired )

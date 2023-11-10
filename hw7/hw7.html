@@ -3339,11 +3339,11 @@ z-index: 1000;
 
 </header>
 
-<p>(include a brief description of what is in this document)</p>
+<p>This document includes queries from a database created in the hw7-ddl.sql document. Also it has ER Diagrams to visualize the DB.</p>
 <p>GITHUB URL: https://github.com/cmsc-vcu/cmsc508-fa2023-hw7-Tyrese804</p>
 <section id="overview-and-description" class="level2">
 <h2 class="anchored" data-anchor-id="overview-and-description">Overview and description</h2>
-<p>(briefly describe the project and the database)</p>
+<p>This database includes information for a company about its employees, along with their roles and skills.</p>
 </section>
 <section id="crows-foot-diagram" class="level2">
 <h2 class="anchored" data-anchor-id="crows-foot-diagram">Crows-foot diagram</h2>
@@ -3353,7 +3353,7 @@ z-index: 1000;
 <div>
 <div>
 <pre class="mermaid mermaid-js">erDiagram
-    PEOPLE ||--|{ ROLES : have
+    PEOPLE }|--|{ ROLES : have
     PEOPLE }|--|{ SKILLS : have
     SKILLS{
         int id PK
@@ -3394,7 +3394,7 @@ z-index: 1000;
 <p>The <em>people</em> table contains elements that describe employees within a company, aloong with their information associated with the company.</p>
 <p>Below is a list of data in the <em>people</em> table.</p>
 <div class="cell" data-execution_count="5">
-<div class="cell-output cell-output-display" data-execution_count="30">
+<div class="cell-output cell-output-display" data-execution_count="5">
 <div>
 
 
@@ -3498,7 +3498,7 @@ z-index: 1000;
 <p>The <em>skills</em> table contains elements that describe different skills that an employee might have</p>
 <p>Below is a list of data in the <em>skills</em> table.</p>
 <div class="cell" data-execution_count="6">
-<div class="cell-output cell-output-display" data-execution_count="31">
+<div class="cell-output cell-output-display" data-execution_count="6">
 <div>
 
 
@@ -3581,7 +3581,7 @@ z-index: 1000;
 <p>The <em>roles</em> table contains elements that describe potential roles that an employee might be responsible for within their job</p>
 <p>Below is a list of data in the <em>roles</em> table.</p>
 <div class="cell" data-execution_count="7">
-<div class="cell-output cell-output-display" data-execution_count="32">
+<div class="cell-output cell-output-display" data-execution_count="7">
 <div>
 
 
@@ -3645,9 +3645,8 @@ z-index: 1000;
 </section>
 <section id="list-skill-names-tags-and-descriptions-ordered-by-name" class="level1">
 <h1>List skill names, tags, and descriptions ordered by name</h1>
-<p>(here a sample query)</p>
 <div class="cell" data-execution_count="9">
-<div class="cell-output cell-output-display" data-execution_count="34">
+<div class="cell-output cell-output-display" data-execution_count="9">
 <div>
 
 
@@ -3718,7 +3717,7 @@ z-index: 1000;
 <section id="list-people-names-and-email-addresses-ordered-by-last_name" class="level3">
 <h3 class="anchored" data-anchor-id="list-people-names-and-email-addresses-ordered-by-last_name">List people names and email addresses ordered by last_name</h3>
 <div class="cell" data-execution_count="11">
-<div class="cell-output cell-output-display" data-execution_count="36">
+<div class="cell-output cell-output-display" data-execution_count="11">
 <div>
 
 
@@ -3778,7 +3777,7 @@ z-index: 1000;
 <section id="list-skill-names-of-person-1" class="level3">
 <h3 class="anchored" data-anchor-id="list-skill-names-of-person-1">List skill names of Person 1</h3>
 <div class="cell" data-execution_count="13">
-<div class="cell-output cell-output-display" data-execution_count="38">
+<div class="cell-output cell-output-display" data-execution_count="13">
 <div>
 
 
@@ -3812,7 +3811,7 @@ z-index: 1000;
 <section id="list-people-names-with-skill-6" class="level3">
 <h3 class="anchored" data-anchor-id="list-people-names-with-skill-6">List people names with Skill 6</h3>
 <div class="cell" data-execution_count="15">
-<div class="cell-output cell-output-display" data-execution_count="40">
+<div class="cell-output cell-output-display" data-execution_count="15">
 <div>
 
 
@@ -3845,7 +3844,7 @@ z-index: 1000;
 <section id="list-people-with-a-developer-role" class="level3">
 <h3 class="anchored" data-anchor-id="list-people-with-a-developer-role">List people with a DEVELOPER role</h3>
 <div class="cell" data-execution_count="17">
-<div class="cell-output cell-output-display" data-execution_count="42">
+<div class="cell-output cell-output-display" data-execution_count="17">
 <div>
 
 
@@ -3939,7 +3938,7 @@ z-index: 1000;
 <section id="list-names-and-email-addresses-of-people-without-skills" class="level3">
 <h3 class="anchored" data-anchor-id="list-names-and-email-addresses-of-people-without-skills">List names and email addresses of people without skills</h3>
 <div class="cell" data-execution_count="19">
-<div class="cell-output cell-output-display" data-execution_count="44">
+<div class="cell-output cell-output-display" data-execution_count="19">
 <div>
 
 
@@ -3969,7 +3968,7 @@ z-index: 1000;
 <section id="list-names-and-tags-of-unused-skills" class="level3">
 <h3 class="anchored" data-anchor-id="list-names-and-tags-of-unused-skills">List names and tags of unused skills</h3>
 <div class="cell" data-execution_count="21">
-<div class="cell-output cell-output-display" data-execution_count="46">
+<div class="cell-output cell-output-display" data-execution_count="21">
 <div>
 
 
@@ -4002,7 +4001,7 @@ z-index: 1000;
 <section id="list-people-names-and-skill-names-with-the-boss-role" class="level3">
 <h3 class="anchored" data-anchor-id="list-people-names-and-skill-names-with-the-boss-role">List people names and skill names with the BOSS role</h3>
 <div class="cell" data-execution_count="23">
-<div class="cell-output cell-output-display" data-execution_count="48">
+<div class="cell-output cell-output-display" data-execution_count="23">
 <div>
 
 
@@ -4044,7 +4043,7 @@ z-index: 1000;
 <section id="list-ids-and-names-of-unused-roles" class="level3">
 <h3 class="anchored" data-anchor-id="list-ids-and-names-of-unused-roles">List ids and names of unused roles</h3>
 <div class="cell" data-execution_count="25">
-<div class="cell-output cell-output-display" data-execution_count="50">
+<div class="cell-output cell-output-display" data-execution_count="25">
 <div>
 
 
